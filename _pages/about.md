@@ -19,241 +19,90 @@ redirect_from:
 
 Welcome!!!😘😘😘
 
-I'm **Yijie Lu**(陆一杰)🐕.I'm presently a sophomore undergraduate studying Cyberspace security for my B.E. at [Cyber Science and Engineering (SCSE)](https://cse.whu.edu.cn/index.htm),[Wuhan University(WHU)](https://www.whu.edu.cn/).
+I'm **Yijie Lu**(陆一杰)🐕. I'm an undergraduate student at the School of Cyber Science and Engineering, [Wuhan University (WHU)](https://www.whu.edu.cn/), majoring in Cyberspace Security.
 
-Since I am interested in intellectual property law, I am actively looking for opportunities to study for a Master of Laws.
+My current academic standing is **Rank: 5/143 (Top 3.4%)** with a **GPA of 3.82/4.0**.
 
-I feel really fortunate to have had the opportunity to meet so many exceptional seniors over the last year, especially **Siqi Zhu,Yichen Luo, Yuxin Wu, and Boheng Li**.I've learned a lot from them, therefore I'm prepared to try my hardest to mentor and counsel the younger.😄
-
-Over the past year,I have won the **First Class Scholarship of WHU** (5% school-wide), the **Lei Jun Computer Science Undergraduate Scholarship** (60 candidates per year in WHU).
+Over the past years, I have been honored with the **First Class Scholarship of WHU** (Top 5%) and the **Lei Jun Computer Science Undergraduate Scholarship** (60 recipients university-wide).
 
 I look forward to connecting and communicating with more people, if you are interested in me, please drop me an email!☀️
 
-<!--
 # 🔥 News
-- *2023.10* :I won the Lei Jun Computer Science Undergraduate Scholarship.
--->
+- *Aug 2024*: Won **Bronze Medal** in the NeurIPS-Ariel Data Challenge 2024.
+- *Aug 2024*: Won **Bronze Medal** in the Kaggle: LMSYS-Chatbot Arena Human Preference Predictions.
+- *Sep 2024*: As **Team Leader**, won the **First Prize (National Final)** in the China Collegiate Computing Contest - Network Challenge.
+- *Jun 2024*: As a core member, won the **First Prize (National Final)** in the China Robot and Artificial Intelligence Competition.
 
-<!--
-# 📝 Publications 
-*前面的世界，以后再来探索吧*
--->
+# 📝 Publications & Research
+$^\dagger$: Equal contribution, $^*$: Corresponding author
+
+---
+- **EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection** <br>
+  **Yijie Lu** <br>
+  *Preprint, submitted to NeurIPS 2025.* <br>
+  **[<a href="http://arxiv.org/abs/2505.14289">arXiv</a>]** <br>
+  This project proposes a black-box, feedback-driven evolutionary framework for red-teaming GUI agents against indirect prompt injection. By dynamically evolving a word corpus based on the agent's interactive feedback, EVA significantly improves attack success rates (e.g., from 48% to 80% in popup scenarios) and reveals key vulnerabilities related to attentional focus and semantic overlap, offering actionable insights for defense.
+
+---
+- **PoisonBench: A Fine-Grained Direct Injection Benchmark for Robustness Evaluation in Retrieval-Augmented Generation with Large Language Models** <br>
+  **Yijie Lu** <br>
+  *Preprint, submitted to AAAI 2026.* <br>
+  We introduce PoisonBench, the first bilingual (Chinese-English) benchmark focused on templated direct injection attacks in RAG systems. It features six fine-grained poisoning templates based on cognitive biases (e.g., authority citation, statistical misdirection). Our experiments on mainstream LLMs show a significant drop in accuracy (up to 27.4 percentage points), demonstrating that models' internal knowledge is easily overridden by rhetorically strong but factually weak contexts.
+
+---
+- **Smart Sound Guidance - IoT Voice Attack Defense System** <br>
+  **[<a href="https://optimiscs.github.io/SoundGuardian/">Project Homepage</a>]** | **[<a href="https://github.com/mumuyeye/Smart-Sound-Guardian">Code</a>]** <br>
+  This project addresses the deficiencies of traditional voice attack defense systems. We designed a comprehensive solution featuring an intelligent attack detection model (88.7% accuracy), a crowdsensing monitoring platform, and a threat warning system, effectively enhancing the security of IoT devices against voice-based threats. This work, which I led, won the **First Prize** in the National Final of the China Collegiate Computing Contest.
+
+---
+- **HaMonitorSentry - High-rise Building Intelligent Monitoring System** <br>
+  **[<a href="https://periodblue.github.io/HaMonitorSentry/README.html">Project Homepage</a>]** | **[<a href="https://github.com/periodblue/HaMonitorSentry">Code</a>]** | **[<a href="https://periodblue.github.io/certification/HaMonitorSentry.pdf">Docs</a>]** <br>
+  Focusing on dual-angle monitoring, this system integrates algorithms for detecting falling objects and recognizing dangerous high-rise behaviors. We introduced techniques like inter-class distance knowledge distillation and a Mask-Attention module to improve detection accuracy and real-time performance in complex scenes. This work won the **First Prize** in the National Final of the China Robot and Artificial Intelligence Competition.
+
+---
+- **FuzzLLM - A Novel Universal Fuzzing Framework for Actively Discovering LLM Jailbreak Vulnerabilities** <br>
+  **[<a href="https://1NormalGuy.github.io/FuzzLLM_demo/">Project Homepage</a>]** | **[<a href="https://github.com/1NormalGuy/FuzzLLM">Code</a>]** <br>
+  Inspired by traditional fuzzing, FuzzLLM deconstructs jailbreak prompts and automatically generates a large volume of structured test cases. This highly automated framework can efficiently identify potential security vulnerabilities in LLMs in a black-box setting, enabling proactive defense. The project has resulted in one **National Invention Patent** and one **Software Copyright**.
 
 # 🏆 Competition Awards
-- **Third Prize.** RAICOM CAIA Competition: Hubei Provincial Division. *2024.06*
-- **Second Prize.** China College Student Computer Design Competition (Central and South Region) (Digital Media Technology  Track). *2024.05*
-- **Third Prize.** China College Student Computer Design Competition (Central and South Region) (Digital Media Technology  Track). *2024.05*
-- **Second Prize.** LanQiao Cup：Digital Technology Innovation Competition-Team Competition. *2024.05*
-- **Third Prize.** College Student Mathematical Modeling Competition-Huazhong Cup. *2024.05*
-- **Third Prize.** 2023 "Foreign Language Research Society, National Talent Cup" and "Understanding Contemporary China" National College Student Foreign Language Proficiency Competition.*2023.10*
-- **Second Prize.** National University Business Elite Challenge Innovation and Entrepreneurship Competition Entrepreneurship Plan Track.*2023.10*
-- **Third Prize.** China College Student Computer Design Competition (Central and South Region) (Digital Media Technology  Track). *2023.06*
-- **Third Prize.** China College Student Computer Design Competition (Central and South Region) (Artificial Intelligence Track). *2023.06*
-- **Forth Prize.** CTF Freshman Team Competition. *2022.11*
-- **Excellence Award.** The 9th Zero Cup Web Design Competition. *2022.11*
+- **Bronze Medal.** NeurIPS-Ariel Data Challenge 2024. (*International, 2024*)
+- **Bronze Medal.** Kaggle: LMSYS-Chatbot Arena Human Preference Predictions. (*International, 2024*)
+- **First Prize.** China Collegiate Computing Contest - Network Challenge (National Final). (*National, 2024*)
+- **First Prize.** China Robot and Artificial Intelligence Competition (National Final). (*National, 2024*)
+- **Second Prize.** National University Business Elite Challenge - Innovation and Entrepreneurship Competition (National Final). (*National, 2023*)
+- **Second Prize.** LanQiao Cup National Software and IT Professionals Competition - Digital Technology Innovation Contest (National Preliminaries). (*National, 2024*)
+- **Third Prize.** LanQiao Cup National Software and IT Professionals Competition - AI Programming Contest (National Preliminaries). (*National, 2025*)
+- **First Prize.** China Robot and Artificial Intelligence Competition (Hubei Provincial). (*Provincial, 2025*)
+- **Second Prize.** China College Student Computer Design Competition (Central South Region). (*Provincial, 2025*)
+- **Second Prize.** China Collegiate Computing Contest - Network Challenge (Central China Region). (*Provincial, 2024*)
+- **Second Prize.** China College Student Computer Design Competition (Central South Region). (*Provincial, 2024*)
+- **Second Prize.** China Robot and Artificial Intelligence Competition (Hubei Provincial). (*Provincial, 2024*)
+- **Third Prize.** China Robot and Artificial Intelligence Competition (Hubei Provincial). (*Provincial, 2025*)
+- **Third Prize.** China College Student Computer Design Competition (Central South Region). (*Provincial, 2024*)
+- **Third Prize.** China College Student Computer Design Competition (Central South Region, AI Track). (*Provincial, 2023*)
+- **Third Prize.** China College Student Computer Design Competition (Central South Region, Digital Media Track). (*Provincial, 2023*)
+- **Third Prize.** RAICOM Robot Developer Competition (Hubei Provincial). (*Provincial, 2024*)
+- **Third Prize.** Huazhong Cup Mathematical Contest in Modeling. (*Provincial, 2024*)
+
 
 # 🎖 Scholarships and Honors
-- *2023.10* **Lei Jun Computer Science Undergraduate Scholarship** (Award Rate: 20/1213=1.6%) *Wuhan University & Xiao Mi Technologies Co., Ltd.*
-- *2023.10* **Merit Student**  (Award Rate: 10% school-wide) *Wuhan University*  
-- *2023.10* **First Class Scholarship of WHU** (Award Rate: 5% school-wide) *Wuhan University* 
-
+- *2023.10* **Lei Jun Computer Science Undergraduate Scholarship** (￥10000, 60 recipients university-wide) *Wuhan University & Xiaomi Inc.*
+- *2023.10* **First Class Scholarship of WHU** (Top 5%) *Wuhan University*
+- *2023.10* **Merit Student** (Top 10%) *Wuhan University*
+- **LvMeng Scholarship** *Wuhan University*
+- **Advanced Individual in Scientific and Technological Innovation** *Wuhan University*
 
 # 📖 Educations
-- *2022.08 - Now*, Undergraduate, School of Cyber Science and Engineering, Wuhan University, China. Majoring in Cyberspace Security. 
-- *2019.09 - 2022.06*, Senior Middle School, Yongzhou No. 4 Middle School, China.
-- *2016.09 - 2019.06*, Junior Middle School, Dong'an Chengjiang Experimental Middle School, China.
-
-<!--
-# 🎡 Activities
-## Academic Services
-*前面的世界，以后再来探索吧*
-## Invited talks (Selected)
-*前面的世界，以后再来探索吧*
--->
-
-<!--
-# 🔗 Useful Links
-##  🤖 Course Recommendations
-
-- *[高等数学-兆筱小分队](https://www.bilibili.com/video/BV1dJ411c7ab/?spm_id_from=333.788&vd_source=a8a064bcbd088bc6388119f018c52df7)*
-
-- *[线性代数-limite](https://www.bilibili.com/video/BV1L7411a7Rz/?spm_id_from=333.999.0.0&vd_source=a8a064bcbd088bc6388119f018c52df7)*
-
-- *[Essence of linear algebra](https://www.bilibili.com/video/BV1ys411472E/?spm_id_from=333.999.0.0&vd_source=a8a064bcbd088bc6388119f018c52df7)*
-
-- *[Linear Algebra](https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW)*
-
-- *[汇编语言(王爽)](https://www.bilibili.com/video/BV1Wu411B72F/?spm_id_from=333.999.0.0&vd_source=a8a064bcbd088bc6388119f018c52df7)*
-
-- *[c语言程序设计-翁凯](https://www.icourse163.org/spoc/course/zju-121004?tid=150003#/info)*
-
-- *[CS231n Deep Learning for Computer Vision](http://cs231n.stanford.edu/)*
-
-## 💻 Coding Skills
-
-- *[GIT-菜鸟教程](https://www.runoob.com/git/git-tutorial.html)*
-
-- *[Python最佳实践指南](http://itpcb.com/docs/pythonguide/)*
-
-- *[Pytorch入门教程-小土堆](https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.999.0.0&vd_source=a8a064bcbd088bc6388119f018c52df7)*
-
-## 🧭 Examination or Study Guides
-
-At present, I have no time to upload all the guides. If you need more, please send me an email (of course you need attach your grade, class and name).
-
--  *[网安导论知识点总结](https://github.com/1NormalGuy/1normalguy.github.io/raw/main/docs/dl.pdf)*
-
-- *[指针数组 & 数组指针 & 二级指针 辨析](https://github.com/1NormalGuy/1normalguy.github.io/raw/main/docs/points.pdf)*
-
-- *[2023年（2024届）网安院保研打分细则](https://github.com/1NormalGuy/1normalguy.github.io/raw/main/docs/2023baoyan.pdf)*
-
-- *[武汉大学毕业论文&实验报告latex模版-overleaf](https://cn.overleaf.com/latex/templates/tagged/whu)*
-
--->
-
-<!--## 📚 Textbooks
-
-At present, I have no time to upload all the textbooks. If you need more, please send me an email (of course you need attach your grade, class and name).
-
-- *[高等数学（下）-武汉大学](https://github.com/1NormalGuy/1normalguy.github.io/raw/main/docs\高等数学(上).pdf)*
--->
-
-
-<!--
-- 计算机设计大赛经验分享, Spring 2023. \[[Slides](https://github.com/AntigoneRandy/antigonerandy.github.io/raw/main/docs/ComputerDeignCompetition.pdf)\]
-
-- 竞赛经验漫谈, Fall 2022. \[[Slides](https://github.com/AntigoneRandy/antigonerandy.github.io/raw/main/docs/Competitions-2022Fall.pdf)\]
-
-- 新老生经验交流会, Fall 2021. \[[Slides and Other Materials](https://github.com/AntigoneRandy/antigonerandy.github.io/raw/main/docs/ExperienceSharing2021Winter.zip)\]
--->
-
-
-<!--
-$^\dagger$: equal contribution, $^*$: corresponding author
--->
-<!-- ## 🛰️ Geoinformatics & Remote Sensing
-- [Optimized Design Method for Satellite Constellation Configuration Based on Real-time Coverage Area Evaluation](https://ieeexplore.ieee.org/document/9963835)   
-Jiahao Zhou, **Boheng Li**, Qingxiang Meng   
-*The 29th International Conference on Geoinformatics (CPGIS), 2022*
-
-- [Comprehensive Evaluation of Emergency Shelters in Wuhan City Based on GIS](https://ieeexplore.ieee.org/document/9963810)   
-Tingyu Luo, **Boheng Li**, Jiahao Zhou, Qingxiang Meng   
-*The 29th International Conference on Geoinformatics (CPGIS), 2022* -->
-
-<!-- ## 🤖️ AI Security, Privacy & Intellectual Property (IP) Protection -->
-<!--
-- [What can Discriminator do? Towards Box-free Ownership Verification of Generative Adversarial Networks](https://arxiv.org/abs/2307.15860)   
-Ziheng Huang$^\dagger$, **Boheng Li**$^\dagger$, Yan Cai, Run Wang, Shangwei Guo, Liming Fang, Jing Chen, Lina Wang   
-*International Conference on Computer Vision (ICCV), 2023*
-
-- [Free Fine-tuning: A Plug-and-Play Watermarking Scheme for Deep Neural Networks](https://arxiv.org/abs/2210.07809)   
-Run Wang, Jixing Ren, **Boheng Li**, Tianyi She, Wenhui Zhang, Liming Fang, Jing Chen, Lina Wang  
-*ACM Multimedia (MM), 2023*
-
-- [Dual-level Interaction for Domain Adaptive Semantic Segmentation](https://arxiv.org/abs/2307.07972)   
-Dongyu Yao, **Boheng Li**$^\*$   
-*ICCV Workshop on Uncertainty Quantification for Computer Vision (UnCV), 2023*
-
-
-Other 2 papers regarding IP protection of DL have currently been submitted to CCF-A tier conferences.
-<!-- ## 🖨️ Preprints & In Submission
--->
-
-<!-- # 💻 Internships
-To be updated. -->
-
-<!-- # 🔗 Useful Links
-
-## Courses
-
-- [Linear Algebra (Hung-yi Lee, NTU, 2018)](https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW)
-
-- [CS229: Machine Learning](https://cs229.stanford.edu/)
-
-- [CS230 Deep Learning](https://cs230.stanford.edu/)
-
-- [CS231n Deep Learning for Computer Vision](http://cs231n.stanford.edu/)
-
-- [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
-
-- [CS131 Computer Vision: Foundations and Applications](http://vision.stanford.edu/teaching/cs131_fall2223/index.html)
-
-- [北京邮电大学鲁鹏-计算机视觉 清晰版 国家级精品课程](https://www.bilibili.com/video/BV1VW4y1v7Ph/)
-
-- [火炉课堂-深度学习 (厦门大学)](https://www.bilibili.com/video/BV1qq4y1f7Fm)
-
-- [中科大-凸优化](https://www.bilibili.com/video/av40868517)
-
-- [The Next Step for Machine Learning (Hung-yi Lee, NTU, 2019)](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
-
-- [人工智能的数学基础（清华出版社）](https://www.bilibili.com/video/BV15N4y1w7e1/)
-
-- [理解机器学习](https://www.bilibili.com/video/BV1hg411h7ys)
-
-## Writing
-
-- 英文学术论文写作指南 \[[link](https://www.bilibili.com/video/BV1aa411H757/)\]
-
-- 学术规范与论文写作-南开大学程明明 \[[link](https://www.bilibili.com/video/BV18F411M7YL/)\]
-
-- [Matplotlib cheatsheets and handouts](https://matplotlib.org/cheatsheets/)
-
-- [十分钟掌握Seaborn，进阶Python数据可视化分析](https://zhuanlan.zhihu.com/p/49035741)
-
-- [科学写作与哲学](https://zhuanlan.zhihu.com/p/433168083)
-
-- [绘图软件/编程大全](https://www.bilibili.com/video/BV1gR4y1y76U)
-
-- [如何进行高质量科研论文的写作：Shui Yu 悉尼科技大学](https://www.bilibili.com/video/BV1a8411s7Nr?p=1)
-
-## 💻 Coding Skills
-
-- Python最佳实践指南 \[[link](http://itpcb.com/docs/pythonguide/)\]
-
-- Python Cookbook 3rd Edition Documentation \[[link](http://itpcb.com/docs/python3cookbook/)\]
-
-- 🥡 Git 菜单 \[[link](http://itpcb.com/docs/gitrecipes/)\]
-
-- Linux 基础与工具教程 \[[link](http://itpcb.com/docs/linuxtools/base/index.html)\]
-
-## 🤖️ Artificial Intelligence & Deep Learning
-
-- 新手如何入门pytorch？ \[[link](https://www.zhihu.com/question/55720139/answer/2788304721)\]
-
-- 人工智能与Pytorch深度学习 \[[link](https://space.bilibili.com/100682193/channel/collectiondetail?sid=689091)\]
-
-- [A PyTorch Tools, best practices & Styleguide](https://github.com/IgorSusmelj/pytorch-styleguide)
-
-## Roadmap
-
-- [科研人必看！盘点那些最好用的 AI 学术科研工具](https://zhuanlan.zhihu.com/p/153279496)
-
-- [本科生如何自学机器学习？](https://www.zhihu.com/question/332726203/answer/737596538)
-
-- [计算机视觉中的对抗样本 (Adversarial example)](https://zhuanlan.zhihu.com/p/352456539)
-
-- [简单梳理一下机器学习可解释性 (Interpretability)](https://zhuanlan.zhihu.com/p/141013178)
-
-## Misc
-
-- [网络安全领域的科学研究和论文发表 美国西北大学 Xinyu Xing](https://www.bilibili.com/video/BV1Le4y1S7uw)
-
-- [CVPR 9999 Best Paper——《一种加辣椒的番茄炒蛋》](https://zhuanlan.zhihu.com/p/433237905)
-
-- [深度学习理论与实践---深度学习中的信息论：熵、最短编码、交叉熵与互信息](https://zhuanlan.zhihu.com/p/565412701)
-
-- [Pytorch实验代码的亿些小细节](https://github.com/ahangchen/windy-afternoon/blob/master/ml/pratice/torch_best_practice.md)
-
-- [【万字长文详解】Python库collections，让你击败99%的Pythoner](https://zhuanlan.zhihu.com/p/343747724)
-
-- [记一次神奇的 Rebuttal 经历](https://zhuanlan.zhihu.com/p/353761920)
-
-- [精美的终端工具 - Rich](https://www.zhihu.com/question/317758961/answer/2627662722)
-
-- [有没有什么可以节省大量时间的 Deep Learning 效率神器？-深度学习可视化中间变量的神器Visualizer](https://www.zhihu.com/question/384519338/answer/2620414587)
-
-- [AI-research-tools](https://github.com/bighuang624/AI-research-tools/blob/master/README.md#ai-research-tools)
-
-- [自动超参数搜索工具optuna](https://github.com/optuna/optuna)
-
-- [科研写作技巧](https://www.zhihu.com/question/528654768/answer/2452424449) -->
+- *2022.08 - Present*, **B.E. in Cyberspace Security**, Wuhan University, China.
+  - **GPA**: 3.82 / 4.0 | **Rank**: 5 / 143 (Top 3.4%)
+  - **Core Courses**: Advanced Mathematics (91), Discrete Mathematics (91), Artificial Intelligence (96, 98), Machine Learning (90, 92), Security Maker Practice (98)
+  - **Skills**: C/C++, Python, HTML/CSS/JavaScript, Algorithms & Data Structures
+  - **Tools**: VS Code, PyCharm, Jupyter Notebook, LaTeX (Overleaf), Git
+
+# 🎡 Activities & Services
+- **Teaching Assistant**, *WHU-Jisuanke Joint Practical Training Course "Security Maker Practice"*, *Jun 2025 - Jul 2025*
+  - Awarded "Top TA" for contributions to teaching, exercise explanation, and Q&A sessions.
+- **Teaching Assistant**, *WHU-Jisuanke Joint Practical Training Course "Security Maker Practice"*, *Jul 2024 - Aug 2024*
+  - Awarded "Excellent TA" for contributions to the one-month practical training course.
+- **Committee Member**, *Study Committee of the Class 3, Grade 2022*, *Aug 2022 - Present*
+- **Member**, *Front-end Group, Ziqiang Student Network Culture Studio*, *Aug 2022 - Jun 2023*
