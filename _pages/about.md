@@ -38,14 +38,12 @@ $^\dagger$: Equal contribution, $^*$: Corresponding author
 
 ---
 - **EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection** <br>
-  **Yijie Lu** <br>
   *Preprint, submitted to NeurIPS 2025.* <br>
   **[<a href="http://arxiv.org/abs/2505.14289">arXiv</a>]** <br>
   This project proposes a black-box, feedback-driven evolutionary framework for red-teaming GUI agents against indirect prompt injection. By dynamically evolving a word corpus based on the agent's interactive feedback, EVA significantly improves attack success rates (e.g., from 48% to 80% in popup scenarios) and reveals key vulnerabilities related to attentional focus and semantic overlap, offering actionable insights for defense.
 
 ---
 - **PoisonBench: A Fine-Grained Direct Injection Benchmark for Robustness Evaluation in Retrieval-Augmented Generation with Large Language Models** <br>
-  **Yijie Lu** <br>
   *Preprint, submitted to AAAI 2026.* <br>
   We introduce PoisonBench, the first bilingual (Chinese-English) benchmark focused on templated direct injection attacks in RAG systems. It features six fine-grained poisoning templates based on cognitive biases (e.g., authority citation, statistical misdirection). Our experiments on mainstream LLMs show a significant drop in accuracy (up to 27.4 percentage points), demonstrating that models' internal knowledge is easily overridden by rhetorically strong but factually weak contexts.
 
