@@ -48,11 +48,7 @@ $^\dagger$: Equal contribution, $^*$: Corresponding author
 
 # 📖 Educations
 - *2022.08 - Present*, **B.E. in Cyberspace Security**, Wuhan University, China.
-  - **GPA**: 3.82 / 4.0 | **Rank**: 7 / 143 (Top 5 %)
-  - **Core Courses**: Advanced Mathematics (91), Discrete Mathematics (91), Artificial Intelligence (96, 98), Machine Learning (90, 92), Security Maker Practice (98)
-  - **Skills**: C/C++, Python, HTML/CSS/JavaScript, Algorithms & Data Structures
-  - **Tools**: VS Code, PyCharm, Jupyter Notebook, LaTeX (Overleaf), Git
-
+ 
 # 🎡 Activities & Services
 - **Teaching Assistant**, *WHU-Jisuanke Joint Practical Training Course "Security Maker Practice"*, *Jun 2025 - Jul 2025*
   - Awarded "Top TA" for contributions to teaching, exercise explanation, and Q&A sessions.
