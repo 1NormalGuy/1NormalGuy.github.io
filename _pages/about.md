@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome!!!😘😘😘
 
-I'm **Yijie Lu** (陆一杰)🐕. I am an undergraduate student at the School of Cyber Science and Engineering, [Wuhan University (WHU)](https://www.whu.edu.cn/), majoring in Cyberspace Security. I will be an incoming Ph.D. student at the School of Computer Science, [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), starting in 2026, under the supervision of Prof. [Zhuosheng Zhang](https://bcmi.sjtu.edu.cn/~zhangzs/).
+I'm **Yijie Lu** (陆一杰)🐕. I am an undergraduate student at the School of Cyber Science and Engineering, [Wuhan University (WHU)](https://www.whu.edu.cn/), majoring in Cyberspace Security. I will be an incoming Ph.D. student at the School of Computer Science, [Shanghai Jiao Tong University（SJTU）](https://www.sjtu.edu.cn/), starting in 2026, under the supervision of Prof. [Zhuosheng Zhang](https://bcmi.sjtu.edu.cn/~zhangzs/).
 
 Over the past years, I have been honored with the **First Class Scholarship of WHU** (Top 5%) and the **Lei Jun Computer Science Undergraduate Scholarship** (60 recipients university-wide).
 
@@ -40,9 +40,9 @@ $^\dagger$: Equal contribution, $^*$: Corresponding author
   This project proposes a black-box, feedback-driven evolutionary framework for red-teaming GUI agents against indirect prompt injection. By dynamically evolving a word corpus based on the agent's interactive feedback, EVA significantly improves attack success rates (e.g., from 48% to 80% in popup scenarios) and reveals key vulnerabilities related to attentional focus and semantic overlap, offering actionable insights for defense.
 
 # 🎖 Scholarships and Honors
-- *2023.10* **Lei Jun Computer Science Undergraduate Scholarship** (￥10000, 60 recipients university-wide) *Wuhan University & Xiaomi Inc.*
-- *2023.10* **First Class Scholarship of WHU** (Top 5%) *Wuhan University*
-- *2023.10* **Merit Student** (Top 10%) *Wuhan University*
+- **Lei Jun Computer Science Undergraduate Scholarship** (￥10000, 60 recipients university-wide) *Wuhan University & Xiaomi Inc.*
+- **First Class Scholarship of WHU** (Top 5%) *Wuhan University*
+- **Merit Student** (Top 10%) *Wuhan University*
 - **LvMeng Scholarship** *Wuhan University*
 - **Advanced Individual in Scientific and Technological Innovation** *Wuhan University*
 
