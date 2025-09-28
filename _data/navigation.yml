@@ -9,9 +9,6 @@ main:
   - title: "Publications & Research"
     url: "/#-publications--research"
 
-  # - title: "Competition Awards"
-  #   url: "/#-competition-awards"
-
   - title: "Scholarships and Honors"
     url: "/#-scholarships-and-honors"
 
@@ -26,3 +23,6 @@ main:
 
   # - title: "Internships"
   #   url: "/#-internships"
+
+  # - title: "Competition Awards"
+  #   url: "/#-competition-awards"
