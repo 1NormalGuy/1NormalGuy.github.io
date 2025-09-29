@@ -34,7 +34,7 @@ $^\dagger$: Equal contribution, $^*$: Corresponding author
 
 ---
 - **EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection** <br>
-  <i>Yijie Lu$^\dagger$ (Wuhan University), Manman Zhao$^\dagger$ (Wuhan University), Tianjie Ju (Shanghai Jiao Tong University), Xinbei Ma (Shanghai Jiao Tong University), Yuan Guo (Shanghai Jiao Tong University), Dr. Daizong Ding (Huawei), Zhuosheng Zhang$^*$ (Shanghai Jiao Tong University)</i> <br>
+  <i>Yijie Lu$^\dagger$ (Wuhan University), Manman Zhao$^\dagger$ (Wuhan University), Tianjie Ju (Shanghai Jiao Tong University), Xinbei Ma (Shanghai Jiao Tong University), Yuan Guo (Shanghai Jiao Tong University), Dr. Daizong Ding (Huawei), Zhuosheng Zhang$^*$ (Shanghai Jiao Tong University) <br>
   *Preprint, submitted to CHI 2026.* <br>
   **[<a href="http://arxiv.org/abs/2505.14289">arXiv</a>]** <br>
   This project proposes a black-box, feedback-driven evolutionary framework for red-teaming GUI agents against indirect prompt injection. By dynamically evolving a word corpus based on the agent's interactive feedback, EVA significantly improves attack success rates (e.g., from 48% to 80% in popup scenarios) and reveals key vulnerabilities related to attentional focus and semantic overlap, offering actionable insights for defense.
