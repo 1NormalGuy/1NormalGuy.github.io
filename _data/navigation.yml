@@ -3,9 +3,6 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
-
   - title: "Publications & Research"
     url: "/#-publications--research"
 
@@ -17,7 +14,10 @@ main:
     
   - title: "Activities & Services"
     url: "/#-activities--services"
-
+    
+  # - title: "News"
+  #   url: "/#-news"
+    
   # - title: "Useful Links"
   #   url: "/#-useful-links"
 
