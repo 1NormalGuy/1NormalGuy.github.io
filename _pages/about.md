@@ -23,24 +23,22 @@ I'm **Yijie Lu** (陆一杰)🐕. I am an undergraduate student at the School of
 
 My current research interests include AI Security and GUI Agent. I am actively seeking collaborations and look forward to connecting with more people. If you are interested in my work, please drop me an email!☀️
 
-# 🔥 News
-- *Sep 2024*: As **Team Leader**, won the **First Prize (National Final)** in the China Collegiate Computing Contest - Network Challenge.
-- *Jun 2024*: As a core member, won the **First Prize (National Final)** in the China Robot and Artificial Intelligence Competition.
-
 # 📝 Publications & Research
-- **EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection** **[<a href="http://arxiv.org/abs/2505.14289">arXiv</a>]**  <br>
-  *Preprint, submitted to CHI 2026.* <br>
-  This project proposes a black-box, feedback-driven evolutionary framework for red-teaming GUI agents against indirect prompt injection. By dynamically evolving a word corpus based on the agent's interactive feedback, EVA significantly improves attack success rates (e.g., from 48% to 80% in popup scenarios) and reveals key vulnerabilities related to attentional focus and semantic overlap, offering actionable insights for defense.
+- **EVA: Evolving Semantic Adversaries for Red-Teaming GUI Agents Against Environmental Injection Attacks** **[<a href="http://arxiv.org/abs/2505.14289">arXiv</a>]**  <br>
+  *Accepted to ACL 2026 Findings.* <br>
+  This paper introduces EVA, an evolutionary framework designed to red-team GUI agents against Environmental Injection Attacks (EIAs) by evolving adversarial payloads exclusively within the semantic dimension. Guided by controlled experiments demonstrating that semantic deception—rather than visual appearance—is the primary determinant of attack success, the framework mines linguistic vulnerabilities and distills them into generalizable rules. Empirical results show that EVA achieves up to an 85% attack success rate across five representative victim agents, evolving benign seeds into successful attacks in only 1.18 to 1.71 iterations. This rapid convergence exposes a dense semantic attack space and an "alignment paradox," revealing that instruction-following capabilities reinforced by alignment training can inadvertently render agents inherently susceptible to authoritative, semantically deceptive environmental cues.
 
 # 🎖 Scholarships and Honors
-- **Lei Jun Computer Science Undergraduate Scholarship** (￥10000, 60 recipients university-wide) *Wuhan University & Xiaomi Inc.*
+- **Outstanding Graduate of WHU** (Top 10%) *Wuhan University*
+- **Lei Jun Computer Science Undergraduate Scholarship** *Wuhan University & Xiaomi Inc.*
 - **First Class Scholarship of WHU** (Top 5%) *Wuhan University*
 - **Merit Student** (Top 10%) *Wuhan University*
 - **LvMeng Scholarship** *Wuhan University*
 - **Advanced Individual in Scientific and Technological Innovation** *Wuhan University*
 
 # 📖 Educations
-- *2022.08 - Present*, **B.E. in Cyberspace Security**, Wuhan University, China.
+- *2026.09 - present*, **P.hD. in Cyberspace Security**, Shanghai Jiao Tong University, China.
+- *2022.08 - 2026.06*, **B.E. in Cyberspace Security**, Wuhan University, China.
  
 # 🎡 Activities & Services
 - **Teaching Assistant**, *WHU-Jisuanke Joint Practical Training Course "Security Maker Practice"*, *Jun 2025 - Jul 2025*
