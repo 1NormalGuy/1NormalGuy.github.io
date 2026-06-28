@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yijie Lu's Homepage"
-description              : "Phd student at Shanghai Jiao Tong University."
+description              : "P.hD. student at Shanghai Jiao Tong University."
 repository               : "https://1NormalGuy.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yijie Lu(陆一杰)"
   avatar           : "images/lu.jpg"
-  bio              : "Shanghai Jiao Tong University"
+  # bio              : "Shanghai Jiao Tong University"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
