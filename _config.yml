@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yijie Lu's Homepage"
-description              : "P.hD. student at Shanghai Jiao Tong University."
+description              : "PhD student at Shanghai Jiao Tong University."
 repository               : "https://1NormalGuy.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4bHC7rEAAAAJ&hl=zh-CN"
-  email            : "luinage16@gmail.com"
+  email            : "luyj16@sjtu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
