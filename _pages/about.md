@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome!!!😘😘😘
 
-I'm **Yijie Lu** (陆一杰)🐕. I am an graduate student at the School of Cyber Science and Engineering, [Wuhan University (WHU)](https://www.whu.edu.cn/), majoring in Cyberspace Security. I will be an incoming Ph.D. student at the School of Computer Science, [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/), starting in 2026, under the supervision of Prof. [Zhuosheng Zhang](https://bcmi.sjtu.edu.cn/~zhangzs/).
+I'm **Yijie Lu** (陆一杰)🐕. I am an undergraduate student at the School of Cyber Science and Engineering, [Wuhan University (WHU)](https://www.whu.edu.cn/), majoring in Cyberspace Security. I will be an incoming Ph.D. student at the School of Computer Science, [Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/), starting in 2026, under the supervision of Prof. [Zhuosheng Zhang](https://bcmi.sjtu.edu.cn/~zhangzs/).
 
 My current research interests include AI Security and GUI Agent. I am actively seeking collaborations and look forward to connecting with more people. If you are interested in my work, please drop me an email!☀️
 
