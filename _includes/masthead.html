@@ -2,15 +2,19 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="Toggle navigation" data-label-en="Toggle navigation" data-label-zh="展开或收起导航"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" target="_self"><span data-lang="en" lang="en">Homepage</span><span data-lang="zh" lang="zh-CN">主页</span></a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" target="_self"><span data-lang="en" lang="en">{{ link.title }}</span><span data-lang="zh" lang="zh-CN">{{ link.title_zh | default: link.title }}</span></a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+    </div>
+    <div class="language-switcher" role="group" aria-label="Language / 语言">
+      <button type="button" data-switch-language="en" lang="en" aria-pressed="true">English</button>
+      <button type="button" data-switch-language="zh" lang="zh-CN" aria-pressed="false">中文</button>
     </div>
   </div>
 </div>

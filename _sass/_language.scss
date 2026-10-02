@@ -1,0 +1,75 @@
+html[lang="en"] [data-lang="zh"],
+html[lang="zh-CN"] [data-lang="en"] {
+  display: none !important;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &::before,
+  &::after {
+    display: none;
+  }
+}
+
+.masthead__menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.greedy-nav {
+  min-width: 0;
+}
+
+.language-switcher {
+  display: flex;
+  flex-shrink: 0;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 10px;
+  background: $lighter-gray;
+
+  button {
+    min-width: 44px;
+    min-height: 40px;
+    margin: 0;
+    padding: 0.35rem 0.65rem;
+    border: 0;
+    border-radius: 7px;
+    background: transparent;
+    color: $dark-gray;
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+      color: $link-color;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $link-color;
+      outline-offset: 2px;
+    }
+
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+}
+
+html[lang="en"] [data-switch-language="en"],
+html[lang="zh-CN"] [data-switch-language="zh"] {
+  background: $background-color;
+  color: $link-color;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .language-switcher button {
+    transition: none;
+  }
+}
