@@ -1,8 +1,5 @@
 {% assign paper = include.paper %}
 <article class="publication" aria-labelledby="paper-{{ paper.id }}">
-  <a class="publication__figure" href="{{ paper.image | relative_url }}" aria-label="View full framework figure" data-label-en="View full framework figure" data-label-zh="查看完整框架图">
-    <img src="{{ paper.image | relative_url }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy" alt="{{ paper.image_alt_en }}" data-alt-en="{{ paper.image_alt_en }}" data-alt-zh="{{ paper.image_alt_zh }}">
-  </a>
   <div class="publication__body">
     <p class="publication__venue"><span class="venue-label">{{ paper.venue }}</span><span class="publication__status"><span data-lang="en" lang="en">{{ paper.status_en }}</span><span data-lang="zh" lang="zh-CN">{{ paper.status_zh }}</span></span></p>
     <h3 id="paper-{{ paper.id }}">{{ paper.title }}</h3>

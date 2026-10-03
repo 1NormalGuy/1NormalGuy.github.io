@@ -4,6 +4,10 @@ main:
     title_zh: "关于我"
     url: "/#about-me"
 
+  - title: "News"
+    title_zh: "近况"
+    url: "/#news"
+
   - title: "Publications"
     title_zh: "论文"
     url: "/#-publications--research"
@@ -19,9 +23,6 @@ main:
   - title: "Service"
     title_zh: "服务"
     url: "/#-activities--services"
-    
-  # - title: "News"
-  #   url: "/#-news"
     
   # - title: "Useful Links"
   #   url: "/#-useful-links"

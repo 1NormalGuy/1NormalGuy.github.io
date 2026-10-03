@@ -26,6 +26,16 @@ redirect_from:
     <li><strong><span data-lang="en" lang="en">Agentic Post-Training</span><span data-lang="zh" lang="zh-CN">智能体后训练</span></strong><span class="research-interest-description"><span data-lang="en" lang="en">Post-training for effective decision-making and interaction.</span><span data-lang="zh" lang="zh-CN">通过后训练提升智能体的决策与交互能力。</span></span></li>
   </ul>
   <p class="contact-invitation"><span data-lang="en" lang="en">I welcome discussions and collaborations. Feel free to <a href="mailto:{{ site.author.email }}">get in touch</a>.</span><span data-lang="zh" lang="zh-CN">欢迎交流与合作，感兴趣的话可以<a href="mailto:{{ site.author.email }}">通过邮件联系我</a>。</span></p>
+  <p class="contact-wechat"><span data-lang="en" lang="en">You can also reach me on WeChat: <strong>SJTUcs0416</strong>.</span><span data-lang="zh" lang="zh-CN">也欢迎添加微信交流：<strong>SJTUcs0416</strong>。</span></p>
+  <div class="reading-reflection">
+    <p><span data-lang="en" lang="en">Within the bounds of causality, widen the space for freedom; amid a changing world, renew the self and let meaning grow through action.</span><span data-lang="zh" lang="zh-CN">在因果的边界内拓展自由，在世界的变迁中更新自我，让意义从行动中生长。</span></p>
+    <p class="reading-reflection__caption"><a href="https://atum.li/cn/"><span data-lang="en" lang="en">Reflections after reading Atum</span><span data-lang="zh" lang="zh-CN">读 Atum 随笔有感</span></a></p>
+  </div>
+</section>
+
+<section class="homepage-section news-section" aria-labelledby="news">
+  <h2 id="news"><span data-lang="en" lang="en">News</span><span data-lang="zh" lang="zh-CN">近况</span></h2>
+  {% include news.html %}
 </section>
 
 <section class="homepage-section publications-section" aria-labelledby="-publications--research">
@@ -59,6 +69,7 @@ redirect_from:
     <li><strong><span data-lang="en" lang="en">LvMeng Scholarship</span><span data-lang="zh" lang="zh-CN">绿盟奖学金</span></strong><span class="honor-organization"><span data-lang="en" lang="en">Wuhan University</span><span data-lang="zh" lang="zh-CN">武汉大学</span></span></li>
     <li><strong><span data-lang="en" lang="en">Advanced Individual in Scientific and Technological Innovation</span><span data-lang="zh" lang="zh-CN">科技创新先进个人</span></strong><span class="honor-organization"><span data-lang="en" lang="en">Wuhan University</span><span data-lang="zh" lang="zh-CN">武汉大学</span></span></li>
   </ul>
+  <p class="funding-acknowledgement"><span data-lang="en" lang="en">Supported by the Lei Jun Fund for Computer Science Innovation and Development.</span><span data-lang="zh" lang="zh-CN">获雷军计算机创新与发展资助基金资助。</span></p>
 </section>
 
 <section class="homepage-section service-section" aria-labelledby="-activities--services">

@@ -19,7 +19,7 @@ Every screen must read as the same product if placed side by side.
 
 ## Signature
 
-A quiet university-red thread connects affiliation links, research terms, and publication venues. Actual figures from the author's papers establish the two publications as the visual focus. The interface must remain recognizably an academic homepage.
+A quiet university-red thread connects affiliation links, research terms, and publication venues. Clear titles, author lists and compact resource links establish the publications as the research focus; paper figures are omitted at the user's request. The interface must remain recognizably an academic homepage.
 
 ## Inspiration
 
@@ -59,7 +59,7 @@ One family in multiple weights is the chosen contrast system. Trebuchet preserve
 
 - Spacing: 0, 2, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80px.
 - Radius: 4px small labels, 8px controls, 12px image frames, full for the portrait.
-- Layout: max-width 1160px, desktop padding 24px, profile rail 208px, column gap 56px. Main content uses remaining width. Publication illustration column 240px where space allows, text gap 24px. On narrower desktop use 200px illustration column; below 768px stack paper rows. The whole page stacks below 1024px.
+- Layout: max-width 1160px, desktop padding 24px, profile rail 208px, column gap 56px. Main content uses remaining width. Publications are full-width text rows without an illustration column. News uses a narrow month column and a flexible text column, stacking on small screens. The whole page stacks below 1024px.
 - Portrait: 176px square on desktop/tablet and 120px square below 576px, circular crop, object-fit cover with appropriate vertical positioning. On small phones the portrait and identity stay side by side, with wrapping contact links below both.
 - Touch controls: at least 44px height/width, language buttons 48px height; visible focus ring 2px with 2px offset.
 - Z layers: normal 0, navigation dropdown 20, masthead 30.
