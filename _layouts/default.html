@@ -9,15 +9,18 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.homepage %} class="homepage"{% endif %}>
+
+    <a class="skip-to-content" href="#content" target="_self"><span data-lang="en" lang="en">Skip to content</span><span data-lang="zh" lang="zh-CN">跳转到正文</span></a>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <div id="main">
       {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
+      <main id="content" class="page" tabindex="-1">
+      <article itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
@@ -25,6 +28,7 @@ layout: compress
           </section>
         </div>
       </article>
+      </main>
     </div>
 
     {% include scripts.html %}

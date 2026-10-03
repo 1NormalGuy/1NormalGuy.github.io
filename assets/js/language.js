@@ -27,9 +27,12 @@
     document.querySelectorAll('[data-label-en]').forEach(function (element) {
       element.setAttribute('aria-label', element.getAttribute('data-label-' + language));
     });
+    document.querySelectorAll('[data-alt-en]').forEach(function (element) {
+      element.setAttribute('alt', element.getAttribute('data-alt-' + language));
+    });
 
     // Re-measure navigation after translating labels, including items in its dropdown.
-    if (typeof window.updateNav === 'function') {
+    if (typeof window.updateNav === 'function' && document.querySelector('#site-nav .hidden-links')) {
       var visibleLinks = document.querySelector('#site-nav .visible-links');
       var hiddenLinks = document.querySelector('#site-nav .hidden-links');
       while (hiddenLinks.firstElementChild) {
@@ -40,6 +43,7 @@
       document.querySelector('#site-nav button').classList.remove('close');
       window.updateNav();
     }
+    document.dispatchEvent(new CustomEvent('homepage:languagechange', { detail: { language: language } }));
   }
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -57,5 +61,12 @@
         window.history.replaceState(null, '', currentUrl.href);
       });
     });
+  });
+
+  window.addEventListener('popstate', function () {
+    var urlLanguage = new URL(window.location.href).searchParams.get('lang');
+    if (urlLanguage === 'en' || urlLanguage === 'zh') {
+      updateLanguage(urlLanguage);
+    }
   });
 }());

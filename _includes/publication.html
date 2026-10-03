@@ -1,0 +1,33 @@
+{% assign paper = include.paper %}
+<article class="publication" aria-labelledby="paper-{{ paper.id }}">
+  <a class="publication__figure" href="{{ paper.image | relative_url }}" aria-label="View full framework figure" data-label-en="View full framework figure" data-label-zh="查看完整框架图">
+    <img src="{{ paper.image | relative_url }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy" alt="{{ paper.image_alt_en }}" data-alt-en="{{ paper.image_alt_en }}" data-alt-zh="{{ paper.image_alt_zh }}">
+  </a>
+  <div class="publication__body">
+    <p class="publication__venue"><span class="venue-label">{{ paper.venue }}</span><span class="publication__status"><span data-lang="en" lang="en">{{ paper.status_en }}</span><span data-lang="zh" lang="zh-CN">{{ paper.status_zh }}</span></span></p>
+    <h3 id="paper-{{ paper.id }}">{{ paper.title }}</h3>
+    <p class="publication__authors">{% for name in paper.authors %}{% if name == 'Yijie Lu' %}<strong>{{ name }}</strong>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    <ul class="publication__topics" aria-label="Research topics" data-label-en="Research topics" data-label-zh="研究主题">
+      {% for tag in paper.tags %}<li><span data-lang="en" lang="en">{{ tag.en }}</span><span data-lang="zh" lang="zh-CN">{{ tag.zh }}</span></li>{% endfor %}
+    </ul>
+    <p class="publication__summary"><span data-lang="en" lang="en">{{ paper.summary_en }}</span><span data-lang="zh" lang="zh-CN">{{ paper.summary_zh }}</span></p>
+    <div class="publication__resources">
+      <a class="paper-link" href="{{ paper.paper_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i><span data-lang="en" lang="en">Paper</span><span data-lang="zh" lang="zh-CN">论文</span></a>
+      {% if paper.code_url %}<a class="paper-link" href="{{ paper.code_url }}"><i class="fab fa-github" aria-hidden="true"></i><span data-lang="en" lang="en">Code</span><span data-lang="zh" lang="zh-CN">代码</span></a>{% endif %}
+      <details class="publication__details">
+        <summary><span data-lang="en" lang="en">Abstract</span><span data-lang="zh" lang="zh-CN">摘要</span></summary>
+        <div class="publication__abstract"><p data-lang="en" lang="en">{{ paper.abstract_en }}</p><p data-lang="zh" lang="zh-CN">{{ paper.abstract_zh }}</p></div>
+      </details>
+      <details class="publication__details publication__citation">
+        <summary>BibTeX</summary>
+        <div class="publication__bibtex">
+          <pre id="bibtex-{{ paper.id }}" tabindex="0" aria-label="BibTeX citation" data-label-en="BibTeX citation" data-label-zh="BibTeX 引用"><code>{{ paper.bibtex | escape }}</code></pre>
+          <div class="bibtex-actions">
+            <button type="button" class="copy-bibtex" data-copy-target="bibtex-{{ paper.id }}"><i class="fas fa-copy" aria-hidden="true"></i><span data-copy-label><span data-lang="en" lang="en">Copy</span><span data-lang="zh" lang="zh-CN">复制</span></span></button>
+            <span class="copy-feedback" aria-live="polite" aria-atomic="true"></span>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</article>

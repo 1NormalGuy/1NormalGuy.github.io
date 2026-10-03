@@ -1,0 +1,17 @@
+{% assign author = site.author %}
+<div class="researcher-profile" itemscope itemtype="https://schema.org/Person">
+  <img class="researcher-profile__portrait" src="{{ '/images/lu.jpg' | relative_url }}" width="176" height="176" alt="Portrait of Yijie Lu" data-alt-en="Portrait of Yijie Lu" data-alt-zh="陆一杰的照片" itemprop="image">
+  <div class="researcher-profile__identity">
+    <h1 class="researcher-profile__name" itemprop="name"><span data-lang="en" lang="en">Yijie Lu</span><span data-lang="zh" lang="zh-CN">陆一杰</span></h1>
+    <p class="researcher-profile__other-name"><span data-lang="en" lang="en">陆一杰</span><span data-lang="zh" lang="zh-CN">Yijie Lu</span></p>
+    <p class="researcher-profile__role"><span data-lang="en" lang="en">Ph.D. Student</span><span data-lang="zh" lang="zh-CN">博士研究生</span></p>
+    <p class="researcher-profile__school"><a href="https://www.sjtu.edu.cn/" itemprop="affiliation"><span data-lang="en" lang="en">Shanghai Jiao Tong University</span><span data-lang="zh" lang="zh-CN">上海交通大学</span></a></p>
+    <p class="researcher-profile__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span data-lang="en" lang="en">{{ author.location }}</span><span data-lang="zh" lang="zh-CN">{{ author.location_zh | default: author.location }}</span></p>
+  </div>
+  <ul class="researcher-profile__links">
+    <li><a href="mailto:{{ author.email }}" itemprop="email"><i class="fas fa-envelope" aria-hidden="true"></i><span>{{ author.email }}</span></a></li>
+    <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a></li>
+    <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span data-lang="en" lang="en">Google Scholar</span><span data-lang="zh" lang="zh-CN">谷歌学术</span></a></li>
+    <li><a href="https://twitter.com/{{ author.twitter | remove_first: '@' }}"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+  </ul>
+</div>

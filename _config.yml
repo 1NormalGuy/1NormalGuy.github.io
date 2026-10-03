@@ -71,6 +71,7 @@ include:
   - _pages
   - files
 exclude:
+  - .ulpi
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

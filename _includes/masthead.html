@@ -1,6 +1,16 @@
-<div class="masthead">
+<header class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+      {% if page.homepage %}
+      <nav id="site-nav" class="homepage-nav" aria-label="Main navigation" data-label-en="Main navigation" data-label-zh="主导航">
+        <button class="homepage-nav__toggle" type="button" aria-controls="homepage-navigation" aria-expanded="false" aria-label="Toggle navigation" data-label-en="Toggle navigation" data-label-zh="展开或收起导航"><i class="fas fa-bars" aria-hidden="true"></i><span data-lang="en" lang="en">Menu</span><span data-lang="zh" lang="zh-CN">导航</span></button>
+        <ul id="homepage-navigation" class="homepage-nav__list">
+          {% for link in site.data.navigation.main %}
+          <li><a href="{{ link.url | remove_first: '/' }}" target="_self"><span data-lang="en" lang="en">{{ link.title }}</span><span data-lang="zh" lang="zh-CN">{{ link.title_zh | default: link.title }}</span></a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {% else %}
       <nav id="site-nav" class="greedy-nav">
         <button type="button" aria-label="Toggle navigation" data-label-en="Toggle navigation" data-label-zh="展开或收起导航"><div class="navicon"></div></button>
         <ul class="visible-links">
@@ -11,10 +21,11 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% endif %}
     </div>
     <div class="language-switcher" role="group" aria-label="Language / 语言">
       <button type="button" data-switch-language="en" lang="en" aria-pressed="true">English</button>
       <button type="button" data-switch-language="zh" lang="zh-CN" aria-pressed="false">中文</button>
     </div>
   </div>
-</div>
+</header>

@@ -1,23 +1,23 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "About"
     title_zh: "关于我"
     url: "/#about-me"
 
-  - title: "Publications & Research"
-    title_zh: "论文与研究"
+  - title: "Publications"
+    title_zh: "论文"
     url: "/#-publications--research"
 
-  - title: "Scholarships and Honors"
-    title_zh: "奖学金与荣誉"
+  - title: "Education"
+    title_zh: "教育"
+    url: "/#-educations"
+
+  - title: "Honors"
+    title_zh: "荣誉"
     url: "/#-scholarships-and-honors"
 
-  - title: "Education"
-    title_zh: "教育经历"
-    url: "/#-educations"
-    
-  - title: "Activities & Services"
-    title_zh: "活动与服务"
+  - title: "Service"
+    title_zh: "服务"
     url: "/#-activities--services"
     
   # - title: "News"

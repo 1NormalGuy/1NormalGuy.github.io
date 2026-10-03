@@ -1,4 +1,8 @@
-<script src="assets/js/main.min.js"></script>
+{% if page.homepage %}
+<script src="{{ '/assets/js/homepage.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+{% else %}
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{% include fetch_google_scholar_stats.html %}
+{% endif %}
 
 {% include analytics.html %}
-{% include fetch_google_scholar_stats.html %}

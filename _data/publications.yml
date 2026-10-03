@@ -1,0 +1,63 @@
+# Author order and citation years verified against arXiv. Acceptance labels are author-provided.
+- id: "cpe"
+  title: "Communication Policy Evolution for Proactive LLM Agents"
+  venue: "EMNLP 2026 Main"
+  status_en: "Accepted"
+  status_zh: "已接收"
+  year: 2026
+  paper_url: "https://arxiv.org/abs/2606.14314"
+  authors: ["Xinbei Ma", "Jiyang Qiu", "Yao Yao", "Zheng Wu", "Yijie Lu", "Xiangmou Qu", "Jiaxin Yin", "Xingyu Lou", "Jun Wang", "Weiwen Liu", "Weinan Zhang", "Zhuosheng Zhang", "Hai Zhao"]
+  image: "/images/publications/cpe-framework.png"
+  image_width: 914
+  image_height: 690
+  image_source: "https://arxiv.org/html/2606.14314v1/fig2-v3.1.png"
+  image_alt_en: "CPE framework: agents refine communication policies through rollout, evaluation and prompt evolution."
+  image_alt_zh: "CPE 框架：智能体通过任务执行、评估与提示词演化改进沟通策略。"
+  summary_en: "We study how proactive agents communicate through text and structured interfaces, then evolve their communication policies through rollout and prompt refinement, without modifying model parameters."
+  summary_zh: "我们研究主动式智能体如何通过文本与结构化界面进行沟通，并通过任务执行与提示词优化演化沟通策略，无需修改模型参数。"
+  tags: [{"en": "Self-evolution", "zh": "自主演化"}, {"en": "Proactive agents", "zh": "主动式智能体"}, {"en": "Communication", "zh": "沟通策略"}]
+  abstract_en: |-
+    LLM agents have rapidly evolved into autonomous systems, yet a persistent information gap remains between users and agents: communication is costly, while users' identical preferences further limit information exchange. To investigate how agents should communicate across modalities, this paper formalizes Communication Policy, establishes textual and UI-based policies, and then evaluates communication policies across diverse environments, personas, and model combinations. Building on information asymmetry for proactive agents, we set up two complementary settings, User--Agent and Planner--Executor. Experimental results reveal complementary strengths between interaction channels: text-based interaction often facilitates task performance, while structured UI improves agents' response quality and persona compliance. Motivated by that, a hybrid method that combines these advantages, we further propose Communication Policy Evolution (CPE), a self-evolution framework for refining communication policies through rollout and prompt-level evolution. Without model modification, CPE achieves the best task success across multiple settings using prompt refinement alone. Our findings identify communication behavior as a critical yet underexplored design dimension for LLM agents.
+  abstract_zh: |-
+    大语言模型智能体正逐步发展为自主系统，但用户与智能体之间仍存在信息鸿沟：沟通具有成本，用户偏好也会限制信息交换。为研究智能体如何通过不同模态进行沟通，本文形式化定义了沟通策略（Communication Policy），建立了基于文本和用户界面的策略，并在不同环境、用户角色及模型组合下进行评估。围绕主动式智能体中的信息不对称问题，我们构建了用户—智能体（User–Agent）与规划者—执行者（Planner–Executor）两种互补场景。实验发现，两类交互渠道各有所长：文本交互通常有利于任务完成，而结构化界面能够提升回复质量及对用户角色设定的遵循程度。在此基础上，我们提出沟通策略演化（Communication Policy Evolution，CPE），通过任务执行轨迹与提示词层面的演化持续改进沟通策略。无需修改模型参数，CPE 仅通过优化提示词便在多个场景下取得了最佳任务成功率。研究表明，沟通行为是大语言模型智能体设计中重要但尚未得到充分研究的维度。
+  bibtex: |-
+    @misc{ma2026communicationpolicyevolution,
+      title = {Communication Policy Evolution for Proactive LLM Agents},
+      author = {Xinbei Ma and Jiyang Qiu and Yao Yao and Zheng Wu and Yijie Lu and Xiangmou Qu and Jiaxin Yin and Xingyu Lou and Jun Wang and Weiwen Liu and Weinan Zhang and Zhuosheng Zhang and Hai Zhao},
+      year = {2026},
+      eprint = {2606.14314},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.14314}
+    }
+  metadata_source: "https://arxiv.org/abs/2606.14314"
+- id: "eva"
+  title: "EVA: Evolving Semantic Adversaries for Red-Teaming GUI Agents Against Environmental Injection Attacks"
+  venue: "ACL 2026 Findings"
+  status_en: "Accepted"
+  status_zh: "已接收"
+  year: 2025
+  paper_url: "https://arxiv.org/abs/2505.14289"
+  authors: ["Yijie Lu", "Manman Zhao", "Tianjie Ju", "Zihe Yan", "Xinbei Ma", "Yuan Guo", "Daizong Ding", "Gongshen Liu", "Zhuosheng Zhang"]
+  image: "/images/publications/eva-framework.png"
+  image_width: 2522
+  image_height: 1049
+  image_source: "https://arxiv.org/html/2505.14289v2/framework_overview.png"
+  image_alt_en: "EVA discovery and deployment framework for evolving semantic injection attacks against GUI agents."
+  image_alt_zh: "EVA 的发现与部署流程，用于演化针对 GUI 智能体的语义注入攻击。"
+  summary_en: "We identify semantic deception as a key vulnerability in GUI agents and introduce an evolutionary red-teaming framework that discovers reusable attack patterns, reaching up to 85% attack success across five victim agents."
+  summary_zh: "我们发现语义欺骗是 GUI 智能体的一项关键脆弱性，并提出演化式红队框架以挖掘可复用的攻击模式，在五种目标智能体上最高达到 85% 的攻击成功率。"
+  tags: [{"en": "Agent reliability", "zh": "智能体可靠性"}, {"en": "GUI agents", "zh": "GUI 智能体"}, {"en": "Red-teaming", "zh": "红队测试"}]
+  abstract_en: |-
+    Graphical User Interface (GUI) agents powered by Multimodal Large Language Models (MLLMs) are increasingly deployed yet vulnerable to Environmental Injection Attacks (EIAs).However, current red-teaming methods are hindered by prohibitive computational costs and limited adaptability.A fundamental question remains unaddressed: does the bottleneck of attack success lie in visual perception or semantic understanding? Through controlled experiments, we observe that semantic deception, rather than visual appearance, serves as the primary determinant of attack success. Based on this insight, we introduce EVA, an evolutionary framework that evolves adversarial payloads exclusively within the semantic dimension.EVA employs a discovery-deployment framework to mine linguistic vulnerability patterns and distill them into generalizable rules.Experimental results across five representative victim agents demonstrate that EVA achieves up to 85% attack success rate, evolving benign seeds into successful attacks within only 1.18 to 1.71 iterations.This rapid convergence uncovers a dense semantic attack space in the model’s latent representation, unveiling a critical alignment paradox: the instruction-following capabilities reinforced by alignment training render agents inherently susceptible to authoritative, semantically deceptive environmental cues.
+  abstract_zh: |-
+    基于多模态大语言模型的图形用户界面（GUI）智能体正在得到广泛应用，但容易受到环境注入攻击（Environmental Injection Attacks，EIAs）。现有红队测试方法面临计算成本高、适应性不足的问题。攻击成功的关键究竟在于视觉感知还是语义理解？通过受控实验，我们发现，相比视觉外观，语义欺骗是决定攻击成功的主要因素。基于这一发现，我们提出 EVA，一个仅在语义层面演化对抗载荷的框架。EVA 采用发现—部署流程，挖掘语言层面的脆弱性模式，并将其提炼为可泛化的规则。在五种代表性目标智能体上的实验中，EVA 的攻击成功率最高达到 85%，平均仅需 1.18 至 1.71 次迭代即可将良性初始样本演化为成功攻击。这种快速收敛揭示了模型潜在表示中密集的语义攻击空间，也揭示出一个关键的对齐悖论：对齐训练强化的指令遵循能力，使智能体容易受到具有权威性、语义欺骗性的环境线索影响。
+  bibtex: |-
+    @misc{lu2025evasemanticadversaries,
+      title = {EVA: Evolving Semantic Adversaries for Red-Teaming GUI Agents Against Environmental Injection Attacks},
+      author = {Yijie Lu and Manman Zhao and Tianjie Ju and Zihe Yan and Xinbei Ma and Yuan Guo and Daizong Ding and Gongshen Liu and Zhuosheng Zhang},
+      year = {2025},
+      eprint = {2505.14289},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2505.14289}
+    }
+  metadata_source: "https://arxiv.org/abs/2505.14289"

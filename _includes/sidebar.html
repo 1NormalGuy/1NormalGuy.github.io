@@ -1,6 +1,8 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  <aside class="sidebar{% unless page.homepage %} sticky{% endunless %}" aria-label="Profile" data-label-en="Profile" data-label-zh="个人信息">
+  {% if page.author_profile or layout.author_profile %}
+    {% if page.homepage %}{% include homepage-profile.html %}{% else %}{% include author-profile.html %}{% endif %}
+  {% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
@@ -10,5 +12,5 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
     {% endfor %}
   {% endif %}
-  </div>
+  </aside>
 {% endif %}
