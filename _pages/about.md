@@ -13,11 +13,11 @@ redirect_from:
   <h2 id="about-me"><span data-lang="en" lang="en">About</span><span data-lang="zh" lang="zh-CN">关于我</span></h2>
   <div class="about-copy" data-lang="en" lang="en">
     <p>I'm <strong>Yijie Lu</strong> (陆一杰), a Ph.D. student at the School of Computer Science, <a class="affiliation-link" href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a>, supervised by Prof. <a href="https://bcmi.sjtu.edu.cn/~zhangzs/">Zhuosheng Zhang</a>. I received my B.E. in Cyberspace Security from <a class="affiliation-link" href="https://www.whu.edu.cn/">Wuhan University (WHU)</a> in 2026.</p>
-    <p>My research focuses on building agents that improve autonomously and operate reliably.</p>
+    <p>My research focuses on building agents that improve autonomously and operate reliably. I look forward to exploring and building AGI together.</p>
   </div>
   <div class="about-copy" data-lang="zh" lang="zh-CN">
     <p>我是<strong>陆一杰</strong>（Yijie Lu），目前在<a class="affiliation-link" href="https://www.sjtu.edu.cn/">上海交通大学</a>计算机学院攻读博士学位，导师是<a href="https://bcmi.sjtu.edu.cn/~zhangzs/">张倬胜</a>教授。我于 2026 年在<a class="affiliation-link" href="https://www.whu.edu.cn/">武汉大学</a>获得网络空间安全专业工学学士学位。</p>
-    <p>我的研究关注能够自主改进、可靠运行的智能体。</p>
+    <p>我的研究关注能够自主改进、可靠运行的智能体。期待与大家一起探索、共建 AGI。</p>
   </div>
   <h3 class="research-heading"><span data-lang="en" lang="en">Research interests</span><span data-lang="zh" lang="zh-CN">研究方向与兴趣</span></h3>
   <ul class="research-interests">
@@ -28,7 +28,7 @@ redirect_from:
   <p class="contact-invitation"><span data-lang="en" lang="en">I welcome discussions and collaborations. Feel free to <a href="mailto:{{ site.author.email }}">get in touch</a>.</span><span data-lang="zh" lang="zh-CN">欢迎交流与合作，感兴趣的话可以<a href="mailto:{{ site.author.email }}">通过邮件联系我</a>。</span></p>
   <p class="contact-wechat"><span data-lang="en" lang="en">You can also reach me on WeChat: <strong>SJTUcs0416</strong>.</span><span data-lang="zh" lang="zh-CN">也欢迎添加微信交流：<strong>SJTUcs0416</strong>。</span></p>
   <div class="reading-reflection">
-    <p><span data-lang="en" lang="en">Within the bounds of causality, widen the space for freedom; amid a changing world, renew the self and let meaning grow through action.</span><span data-lang="zh" lang="zh-CN">在因果的边界内拓展自由，在世界的变迁中更新自我，让意义从行动中生长。</span></p>
+    <p><span data-lang="en" lang="en">Seek truth through causes; renew through reflection; unite knowledge and action.</span><span data-lang="zh" lang="zh-CN">循因求真，自省日新，知行合一。</span></p>
   </div>
 </section>
 

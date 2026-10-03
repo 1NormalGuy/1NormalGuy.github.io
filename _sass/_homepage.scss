@@ -190,8 +190,9 @@ $home-border: #e8e1e4;
     width: 176px;
     height: 176px;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: center 35%;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
     outline: 1px solid rgba(0, 0, 0, .1);
   }
 
