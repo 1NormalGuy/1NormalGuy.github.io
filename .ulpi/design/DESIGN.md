@@ -60,7 +60,7 @@ One family in multiple weights is the chosen contrast system. Trebuchet preserve
 - Spacing: 0, 2, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80px.
 - Radius: 4px small labels, 8px controls, 12px image frames, full for the portrait.
 - Layout: max-width 1160px, desktop padding 24px, profile rail 208px, column gap 56px. Main content uses remaining width. Publications are full-width text rows without an illustration column. News uses a narrow month column and a flexible text column, stacking on small screens. The whole page stacks below 1024px.
-- Portrait: use `images/lu.png`; 176px square on desktop/tablet and 120px square below 576px, circular white frame. Fit the entire portrait proportionally with `object-fit: contain` and centered positioning, retaining hair, shoulders and white space instead of enlarging the face. On small phones the portrait and identity stay side by side, with wrapping contact links below both.
+- Portrait: use the user-provided square `images/lu-big.jpg` (2000 x 2000); 176px square on desktop/tablet and 120px square below 576px, circular white frame. Fit the entire portrait proportionally with `object-fit: contain` and centered positioning, retaining hair, shoulders and white space instead of enlarging the face. On small phones the portrait and identity stay side by side, with wrapping contact links below both.
 - Touch controls: at least 44px height/width, language buttons 48px height; visible focus ring 2px with 2px offset.
 - Z layers: normal 0, navigation dropdown 20, masthead 30.
 - Motion: 150ms ease-out for color/background/opacity, scale 0.96 on button press. No page-load choreography. Reduced motion disables transitions and smooth scrolling.
