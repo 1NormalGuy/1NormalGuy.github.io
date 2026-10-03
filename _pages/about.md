@@ -13,11 +13,11 @@ redirect_from:
   <h2 id="about-me"><span data-lang="en" lang="en">About</span><span data-lang="zh" lang="zh-CN">关于我</span></h2>
   <div class="about-copy" data-lang="en" lang="en">
     <p>I'm <strong>Yijie Lu</strong> (陆一杰), a Ph.D. student at the School of Computer Science, <a class="affiliation-link" href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a>, supervised by Prof. <a href="https://bcmi.sjtu.edu.cn/~zhangzs/">Zhuosheng Zhang</a>. I received my B.E. in Cyberspace Security from <a class="affiliation-link" href="https://www.whu.edu.cn/">Wuhan University (WHU)</a> in 2026.</p>
-    <p>My research focuses on building agents that improve autonomously and operate reliably. I look forward to exploring and building AGI together.</p>
+    <p>My research focuses on building agents that improve autonomously and operate reliably.</p>
   </div>
   <div class="about-copy" data-lang="zh" lang="zh-CN">
     <p>我是<strong>陆一杰</strong>（Yijie Lu），目前在<a class="affiliation-link" href="https://www.sjtu.edu.cn/">上海交通大学</a>计算机学院攻读博士学位，导师是<a href="https://bcmi.sjtu.edu.cn/~zhangzs/">张倬胜</a>教授。我于 2026 年在<a class="affiliation-link" href="https://www.whu.edu.cn/">武汉大学</a>获得网络空间安全专业工学学士学位。</p>
-    <p>我的研究关注能够自主改进、可靠运行的智能体。期待与大家一起探索、共建 AGI。</p>
+    <p>我的研究关注能够自主改进、可靠运行的智能体。</p>
   </div>
   <h3 class="research-heading"><span data-lang="en" lang="en">Research interests</span><span data-lang="zh" lang="zh-CN">研究方向与兴趣</span></h3>
   <ul class="research-interests">
