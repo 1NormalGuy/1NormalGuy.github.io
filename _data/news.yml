@@ -3,31 +3,28 @@
   date_en: "Oct 2026"
   date_zh: "2026 年 10 月"
   text_en: >-
-    Invited to attend <a href="https://www.nvidia.cn/developer-day/"><strong>NVIDIA China Developer Day</strong></a> in Suzhou, Jiangsu. Looking forward to meeting fellow developers there!
+    Invited to attend <a href="https://www.nvidia.cn/developer-day/"><strong>NVIDIA China Developer Day</strong></a> in Suzhou, Jiangsu. Looking forward to meeting you in Suzhou!
   text_zh: >-
     受邀参加 <a href="https://www.nvidia.cn/developer-day/"><strong>NVIDIA 中国开发者日</strong></a>，将赴江苏苏州与开发者交流。期待在苏州相遇！
 - date: "2026-10"
   date_en: "Oct 2026"
   date_zh: "2026 年 10 月"
   text_en: >-
-    Invited to an <a href="https://zcps.rlsbt.zj.gov.cn/028/client/page6/table274.jsp?column1=8ad50053a05dbc2d01a06a7fb80464b8&amp;t=1788480000051"><strong>AI-focused doctoral exchange program in Zhejiang</strong></a>, with activities in Hangzhou. Looking forward to meeting fellow researchers there!
+    Invited to an <a href="https://zcps.rlsbt.zj.gov.cn/028/client/page6/table274.jsp?column1=8ad50053a05dbc2d01a06a7fb80464b8&amp;t=1788480000051"><strong>AI-focused doctoral exchange program in Zhejiang</strong></a>, with activities in Hangzhou. Looking forward to meeting you in Hangzhou!
   text_zh: >-
     受邀参加 <a href="https://zcps.rlsbt.zj.gov.cn/028/client/page6/table274.jsp?column1=8ad50053a05dbc2d01a06a7fb80464b8&amp;t=1788480000051"><strong>浙江省人工智能领域博士浙江行活动</strong></a>，将赴浙江杭州交流学习。期待在杭州相遇！
 - date: "2026-09"
   date_en: "Sep 2026"
   date_zh: "2026 年 9 月"
-  title_en: "MLNLP-World / Paper-Writing-Tips: paper-writing Skill"
-  title_zh: "MLNLP-World / Paper-Writing-Tips：论文写作 Skill"
   text_en: >-
-    Contributed an installable <code>paper-writing</code> Skill to the open-source project, turning paper-writing advice into checks for LaTeX formatting, equations, figures and tables, academic language, and references, with a final submission checklist and usage guide for automated pre-submission review.
+    My <code>paper-writing</code> Skill was merged into <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a>, helping automate pre-submission paper checks.
   text_zh: >-
-    为开源项目贡献了可安装的 <code>paper-writing</code> Skill，将论文写作建议整理为覆盖 LaTeX 排版、公式、图表、学术表达与参考文献的检查规则，并配套投稿前终检清单和使用说明，支持自动化投前检查。
+    我贡献的 <code>paper-writing</code> Skill 已合入 <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a>，支持论文投稿前的自动化检查。
   contribution_source: "https://github.com/MLNLP-World/Paper-Writing-Tips/pull/16"
+  # Verified through GitHub's API on October 4, 2026; retained if the optional live request fails.
+  github_stars: "4,662"
+  github_stars_url: "https://github.com/MLNLP-World/Paper-Writing-Tips/stargazers"
   resources:
-    - title_en: "GitHub"
-      title_zh: "GitHub"
-      url: "https://github.com/MLNLP-World/Paper-Writing-Tips"
-    # The community website links this WeChat entry in its footer; it is not a Skill announcement.
     - title_en: "MLNLP on WeChat"
       title_zh: "MLNLP 公众号"
-      url: "https://mp.weixin.qq.com/s/mRXbfm4aJQb0FMB6YQy1QQ"
+      url: "https://mp.weixin.qq.com/s/xd23e68p-8QGd92ulObo6Q"

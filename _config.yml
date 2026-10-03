@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yijie Lu(陆一杰)"
   name_zh          : "陆一杰（Yijie Lu）"
-  avatar           : "images/lu.jpg"
+  avatar           : "images/lu.png"
   # bio              : "Shanghai Jiao Tong University"
   location         : "Shanghai, China"
   location_zh      : "中国，上海"

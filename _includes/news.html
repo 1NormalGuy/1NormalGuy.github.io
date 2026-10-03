@@ -3,12 +3,12 @@
   <li>
     <time class="news-date" datetime="{{ item.date }}"><span data-lang="en" lang="en">{{ item.date_en }}</span><span data-lang="zh" lang="zh-CN">{{ item.date_zh }}</span></time>
     <div class="news-content">
-      {% if item.title_en %}<h3><span data-lang="en" lang="en">{{ item.title_en }}</span><span data-lang="zh" lang="zh-CN">{{ item.title_zh }}</span></h3>{% endif %}
       <p data-lang="en" lang="en">{{ item.text_en }}</p>
       <p data-lang="zh" lang="zh-CN">{{ item.text_zh }}</p>
       {% if item.resources %}
       <ul class="news-resources">
         {% for resource in item.resources %}<li><a href="{{ resource.url }}"><span data-lang="en" lang="en">{{ resource.title_en }}</span><span data-lang="zh" lang="zh-CN">{{ resource.title_zh }}</span></a></li>{% endfor %}
+        {% if item.github_stars %}<li><a href="{{ item.github_stars_url }}"><i class="fas fa-star" aria-hidden="true"></i><span data-github-stars>{{ item.github_stars }}</span><span data-lang="en" lang="en">stars</span><span data-lang="zh" lang="zh-CN">星标</span></a></li>{% endif %}
       </ul>
       {% endif %}
     </div>

@@ -35,7 +35,7 @@ Sticky clean header. Exactly five section navigation items: About, Publications,
 
 ### Profile rail
 
-Use `images/lu.jpg`, cropped 176px square to a circle, reduced to 120px below 576px. Name gets a clear hierarchy; role and school below it, then Shanghai location and the full email, GitHub, Google Scholar, and Twitter links. All social links have text labels on mobile too. Strip leading `@` from configured Twitter handle when constructing its URL. On desktop rail stays sticky below the header, with no overlapping content. On mobile it becomes a compact profile header: portrait and identity side by side with a 16px gap, contact links spanning both columns below and wrapping naturally. Do not retain the old unlabeled large icon-only presentation. Do not publish the unrelated existing Boheng Li CV.
+Use `images/lu.png`, cropped 176px square to a circle, reduced to 120px below 576px. Name gets a clear hierarchy; role and school below it, then Shanghai location and the full email, GitHub, Google Scholar, and Twitter links. All social links have text labels on mobile too. Strip leading `@` from configured Twitter handle when constructing its URL. On desktop rail stays sticky below the header, with no overlapping content. On mobile it becomes a compact profile header: portrait and identity side by side with a 16px gap, contact links spanning both columns below and wrapping naturally. Do not retain the old unlabeled large icon-only presentation. Do not publish the unrelated existing Boheng Li CV.
 
 ### About and research interests
 

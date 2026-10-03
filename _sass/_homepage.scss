@@ -357,11 +357,6 @@ $home-border: #e8e1e4;
       color: $home-muted;
     }
 
-    p.reading-reflection__caption {
-      margin-top: 8px;
-      font-size: 14px;
-      line-height: 1.55;
-    }
   }
 
   .news-list {
@@ -412,13 +407,6 @@ $home-border: #e8e1e4;
     min-width: 0;
     overflow-wrap: anywhere;
 
-    h3 {
-      margin: 0 0 8px;
-      font-size: 16px;
-      line-height: 1.55;
-      text-wrap: pretty;
-    }
-
     p {
       margin: 0;
     }
@@ -439,6 +427,7 @@ $home-border: #e8e1e4;
     a {
       display: inline-flex;
       align-items: center;
+      gap: 8px;
       min-height: 44px;
       font-size: 14px;
       line-height: 1.55;
@@ -727,11 +716,6 @@ $home-border: #e8e1e4;
     color: $home-muted;
     font-size: 14px;
     line-height: 1.55;
-  }
-
-  .funding-acknowledgement {
-    margin: 24px 0 0;
-    color: $home-muted;
   }
 
   .service-list {
