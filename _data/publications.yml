@@ -1,7 +1,7 @@
 # Author order and citation years verified against arXiv. Acceptance labels are author-provided.
 - id: "cpe"
   title: "Communication Policy Evolution for Proactive LLM Agents"
-  venue: "EMNLP 2026 Main"
+  venue: "EMNLP 2026"
   status_en: "Accepted"
   status_zh: "已接收"
   year: 2026
@@ -32,7 +32,7 @@
   metadata_source: "https://arxiv.org/abs/2606.14314"
 - id: "eva"
   title: "EVA: Evolving Semantic Adversaries for Red-Teaming GUI Agents Against Environmental Injection Attacks"
-  venue: "ACL 2026 Findings"
+  venue: "ACL 2026"
   status_en: "Accepted"
   status_zh: "已接收"
   year: 2025

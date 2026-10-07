@@ -1,4 +1,5 @@
 # Month labels and invitations are supplied by Yijie Lu. Keep the two October items in this order.
+# Acceptance news months follow the conferences' published notification schedules.
 - date: "2026-10"
   date_en: "Oct 2026"
   date_zh: "2026 年 10 月"
@@ -28,3 +29,17 @@
     - title_en: "MLNLP on WeChat"
       title_zh: "MLNLP 公众号"
       url: "https://mp.weixin.qq.com/s/xd23e68p-8QGd92ulObo6Q"
+- date: "2026-08"
+  date_en: "Aug 2026"
+  date_zh: "2026 年 8 月"
+  text_en: >-
+    Our paper <a href="https://arxiv.org/abs/2606.14314"><strong>Communication Policy Evolution (CPE)</strong></a> has been accepted to <strong>EMNLP 2026</strong>. See you in Budapest!
+  text_zh: >-
+    论文 <a href="https://arxiv.org/abs/2606.14314"><strong>Communication Policy Evolution（CPE）</strong></a> 中稿 <strong>EMNLP 2026</strong>，布达佩斯见！
+- date: "2026-04"
+  date_en: "Apr 2026"
+  date_zh: "2026 年 4 月"
+  text_en: >-
+    Our paper <a href="https://arxiv.org/abs/2505.14289"><strong>EVA</strong></a> has been accepted to <strong>ACL 2026</strong>. See you in San Diego!
+  text_zh: >-
+    论文 <a href="https://arxiv.org/abs/2505.14289"><strong>EVA</strong></a> 中稿 <strong>ACL 2026</strong>，圣迭戈见！
