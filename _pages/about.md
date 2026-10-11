@@ -97,4 +97,10 @@ redirect_from:
 
 <footer class="homepage-footer">
   <a href="mailto:{{ site.author.email }}"><span data-lang="en" lang="en">Contact</span><span data-lang="zh" lang="zh-CN">联系我</span> <span>{{ site.author.email }}</span></a>
+  {% if site.visitor_counter and jekyll.environment == 'production' %}
+  <span class="homepage-traffic" aria-live="polite">
+    <span id="busuanzi_container_site_pv" style="display: none"><span data-lang="en" lang="en">Total views</span><span data-lang="zh" lang="zh-CN">总浏览量</span>: <strong id="busuanzi_value_site_pv"></strong></span>
+    <span id="busuanzi_container_site_uv" style="display: none"><span data-lang="en" lang="en">Visitors</span><span data-lang="zh" lang="zh-CN">访客数</span>: <strong id="busuanzi_value_site_uv"></strong></span>
+  </span>
+  {% endif %}
 </footer>

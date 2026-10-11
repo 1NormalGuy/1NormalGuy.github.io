@@ -5,4 +5,8 @@
 {% include fetch_google_scholar_stats.html %}
 {% endif %}
 
+{% if page.homepage and site.visitor_counter and jekyll.environment == 'production' %}
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endif %}
+
 {% include analytics.html %}
