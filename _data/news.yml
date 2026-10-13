@@ -1,5 +1,19 @@
-# Month labels and invitations are supplied by Yijie Lu. Keep the two October items in this order.
+# Month labels and invitations are supplied by Yijie Lu. Keep the two October invitations in their relative order.
 # Acceptance news months follow the conferences' published notification schedules.
+- date: "2026-10"
+  date_en: "Oct 2026"
+  date_zh: "2026 年 10 月"
+  text_en: >-
+    Two of my PRs were merged into <a href="https://github.com/morluto/rea"><strong>REA</strong></a>, fixing Mach-O chained pointer decoding and library provenance, and improving pwntools process and runtime cleanup.
+  text_zh: >-
+    我向 <a href="https://github.com/morluto/rea"><strong>REA</strong></a> 贡献的两条 PR 已合入，修复了 Mach-O 链式指针解析与动态库归属问题，并改进了 pwntools 进程及运行时文件的清理机制。
+  resources:
+    - title_en: "Mach-O pointer fix · PR #1709"
+      title_zh: "Mach-O 指针修复 · PR #1709"
+      url: "https://github.com/morluto/rea/pull/1709"
+    - title_en: "pwntools cleanup fix · PR #1708"
+      title_zh: "pwntools 清理修复 · PR #1708"
+      url: "https://github.com/morluto/rea/pull/1708"
 - date: "2026-10"
   date_en: "Oct 2026"
   date_zh: "2026 年 10 月"
