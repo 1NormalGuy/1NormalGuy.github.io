@@ -84,13 +84,13 @@
   });
 
   // The verified static count remains readable when GitHub or browser networking is unavailable.
-  var starCount = document.querySelector('[data-github-stars]');
-  async function refreshStarCount() {
+  var starCounts = document.querySelectorAll('[data-github-stars]');
+  async function refreshStarCount(starCount) {
     if (!starCount || !window.fetch || !window.AbortController) return;
     var controller = new AbortController();
     var timeout = window.setTimeout(function () { controller.abort(); }, 4000);
     try {
-      var response = await window.fetch('https://api.github.com/repos/MLNLP-World/Paper-Writing-Tips', {
+      var response = await window.fetch('https://api.github.com/repos/' + starCount.getAttribute('data-github-stars'), {
         signal: controller.signal,
         credentials: 'omit'
       });
@@ -105,5 +105,5 @@
       window.clearTimeout(timeout);
     }
   }
-  refreshStarCount();
+  starCounts.forEach(refreshStarCount);
 }());
