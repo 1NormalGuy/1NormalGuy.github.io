@@ -32,9 +32,9 @@
   date_en: "Sep 2026"
   date_zh: "2026 年 9 月"
   text_en: >-
-    My <code>paper-writing</code> Skill was merged into <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a>, helping automate pre-submission paper checks.
+    Became a <strong>contributor</strong> to <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a>, helping automate pre-submission paper checks.
   text_zh: >-
-    我贡献的 <code>paper-writing</code> Skill 已合入 <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a>，支持论文投稿前的自动化检查。
+    成为 <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a> 的 <strong>Contributor（贡献者）</strong>，支持论文投稿前的自动化检查。
   contribution_source: "https://github.com/MLNLP-World/Paper-Writing-Tips/pull/16"
   # Verified through GitHub's API on October 4, 2026; retained if the optional live request fails.
   github_stars: "4,662"
