@@ -8,7 +8,7 @@
       {% if item.resources %}
       <ul class="news-resources">
         {% for resource in item.resources %}<li><a href="{{ resource.url }}"><span data-lang="en" lang="en">{{ resource.title_en }}</span><span data-lang="zh" lang="zh-CN">{{ resource.title_zh }}</span></a></li>{% endfor %}
-        {% if item.github_stars %}<li><a href="{{ item.github_stars_url }}"><i class="fas fa-star" aria-hidden="true"></i><span data-github-stars="{{ item.github_stars_url | remove: 'https://github.com/' | remove: '/stargazers' }}">{{ item.github_stars }}</span><span data-lang="en" lang="en">stars</span><span data-lang="zh" lang="zh-CN">星标</span></a></li>{% endif %}
+        {% if item.github_stars %}<li><a href="{{ item.github_stars_url }}"><i class="fas fa-star" aria-hidden="true"></i><span data-github-stars="{{ item.github_stars_url | remove: 'https://github.com/' | remove: '/stargazers' }}">{{ item.github_stars }}</span><span data-lang="en" lang="en">stars</span><span data-lang="zh" lang="zh-CN">星标</span><small data-star-status="cached"><span data-lang="en" lang="en">(cached)</span><span data-lang="zh" lang="zh-CN">（缓存值）</span></small></a></li>{% endif %}
       </ul>
       {% endif %}
     </div>

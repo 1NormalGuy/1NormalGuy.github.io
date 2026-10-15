@@ -74,6 +74,7 @@ include:
   - _pages
   - files
 exclude:
+  - tests
   - .ulpi
   - docs
   - google_scholar_crawler
