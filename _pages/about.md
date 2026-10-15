@@ -14,12 +14,10 @@ redirect_from:
   <div class="about-copy" data-lang="en" lang="en">
     <p>I'm <strong>Yijie Lu</strong> (陆一杰), a Ph.D. student at the School of Computer Science, <a class="affiliation-link" href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a>, supervised by Prof. <a href="https://bcmi.sjtu.edu.cn/~zhangzs/">Zhuosheng Zhang</a>. I received my B.E. in Cyberspace Security from <a class="affiliation-link" href="https://www.whu.edu.cn/">Wuhan University (WHU)</a> in 2026.</p>
     <p>My research focuses on building agents that improve autonomously and operate reliably.</p>
-    <p>I am currently seeking internship opportunities in agent post-training and RIS, and I look forward to connecting and collaborating with more people in these areas.</p>
   </div>
   <div class="about-copy" data-lang="zh" lang="zh-CN">
     <p>我是<strong>陆一杰</strong>（Yijie Lu），目前在<a class="affiliation-link" href="https://www.sjtu.edu.cn/">上海交通大学</a>计算机学院攻读博士学位，导师是<a href="https://bcmi.sjtu.edu.cn/~zhangzs/">张倬胜</a>教授。我于 2026 年在<a class="affiliation-link" href="https://www.whu.edu.cn/">武汉大学</a>获得网络空间安全专业工学学士学位。</p>
     <p>我的研究关注能够自主改进、可靠运行的智能体。</p>
-    <p>我目前正在寻找智能体后训练和 RIS 相关的实习机会，也期待与更多人交流与合作。</p>
   </div>
   <h3 class="research-heading"><span data-lang="en" lang="en">Research interests</span><span data-lang="zh" lang="zh-CN">研究方向与兴趣</span></h3>
   <ul class="research-interests">
@@ -44,6 +42,11 @@ redirect_from:
   <div class="publication-list">
     {% for paper in site.data.publications %}{% include publication.html paper=paper %}{% endfor %}
   </div>
+</section>
+
+<section class="homepage-section internships-section" aria-labelledby="-internships">
+  <h2 id="-internships"><span data-lang="en" lang="en">Internships</span><span data-lang="zh" lang="zh-CN">实习</span></h2>
+  <p><span data-lang="en" lang="en">I am currently seeking internship opportunities in agent post-training and RIS, and I look forward to connecting and collaborating with more people in these areas.</span><span data-lang="zh" lang="zh-CN">我目前正在寻找智能体后训练和 RIS 相关的实习机会，也期待与更多人交流与合作。</span></p>
 </section>
 
 <section class="homepage-section education-section" aria-labelledby="-educations">
