@@ -7,8 +7,8 @@
     Became a <strong>core contributor and maintainer</strong> of <a href="https://github.com/morluto/rea"><strong>REA</strong></a>, an open-source project for reverse engineering with AI agents.
   text_zh: >-
     成为 AI 智能体逆向工程开源项目 <a href="https://github.com/morluto/rea"><strong>REA</strong></a> 的<strong>核心贡献者和维护者</strong>。
-  # Verified through GitHub's API on October 13, 2026; retained if the optional live request fails.
-  github_stars: "157,920"
+  # Verified through GitHub's API on October 15, 2026; retained if the optional live request fails.
+  github_stars: "258,598"
   github_stars_url: "https://github.com/morluto/rea/stargazers"
   resources:
     - title_en: "Contributors"
@@ -36,8 +36,8 @@
   text_zh: >-
     成为 <a href="https://github.com/MLNLP-World/Paper-Writing-Tips"><strong>MLNLP-World / Paper-Writing-Tips</strong></a> 的<strong>核心贡献者和维护者</strong>，支持论文投稿前的自动化检查。
   contribution_source: "https://github.com/MLNLP-World/Paper-Writing-Tips/pull/16"
-  # Verified through GitHub's API on October 4, 2026; retained if the optional live request fails.
-  github_stars: "4,662"
+  # Verified through GitHub's API on October 15, 2026; retained if the optional live request fails.
+  github_stars: "4,676"
   github_stars_url: "https://github.com/MLNLP-World/Paper-Writing-Tips/stargazers"
   resources:
     - title_en: "MLNLP on WeChat"
