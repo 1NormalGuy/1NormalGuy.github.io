@@ -7,7 +7,7 @@
 {% endif %}
 
 {% if page.homepage and site.visitor_counter and jekyll.environment == 'production' %}
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="{{ '/assets/js/page-views.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 {% endif %}
 
 {% include analytics.html %}

@@ -15,7 +15,7 @@ google_scholar_stats_use_cdn : true
 # google analytics
 google_analytics_id      :  G-NMW1J07WPJ # get google_analytics_id from https://analytics.google.com/analytics/
 
-# Public homepage traffic counts (Busuanzi; enabled for production builds only).
+# Public homepage total page views (Busuanzi; enabled for production builds only).
 visitor_counter          : true
 
 # SEO Related
