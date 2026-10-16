@@ -102,7 +102,7 @@ redirect_from:
   <a href="mailto:{{ site.author.email }}"><span data-lang="en" lang="en">Contact</span><span data-lang="zh" lang="zh-CN">联系我</span> <span>{{ site.author.email }}</span></a>
   {% if site.visitor_counter and jekyll.environment == 'production' %}
   <span class="homepage-traffic" aria-live="polite">
-    <span><span data-lang="en" lang="en">Total views</span><span data-lang="zh" lang="zh-CN">总浏览量</span>: <strong id="busuanzi_value_site_pv">—</strong></span>
+    <span><span data-lang="en" lang="en">Total views</span><span data-lang="zh" lang="zh-CN">总浏览量</span>: <strong id="site-page-views">—</strong></span>
     <small data-view-status><span data-lang="en" lang="en">Loading…</span><span data-lang="zh" lang="zh-CN">加载中…</span></small>
   </span>
   {% endif %}

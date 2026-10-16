@@ -1,17 +1,15 @@
 (function () {
   'use strict';
 
-  var value = document.getElementById('busuanzi_value_site_pv');
+  var value = document.getElementById('site-page-views');
   if (!value || value.getAttribute('data-view-state')) return;
   value.setAttribute('data-view-state', 'loading');
   var status = document.querySelector('[data-view-status]');
-  var callback = 'homepagePageViews_' + Date.now() + '_' + Math.floor(Math.random() * 1000000);
-  var script = document.createElement('script');
-  var timer;
+  var endpoint = 'https://events.vercount.one/api/v2/log';
+  var pageUrl = window.location.origin + '/';
 
   function finish(count) {
     if (value.getAttribute('data-view-state') !== 'loading') return;
-    window.clearTimeout(timer);
     if (Number.isSafeInteger(count) && count >= 0) {
       value.textContent = count.toLocaleString('en-US');
       value.setAttribute('data-view-state', 'ready');
@@ -23,20 +21,51 @@
         status.querySelector('[data-lang="zh"]').textContent = '暂不可用';
       }
     }
-    if (script.parentNode) script.parentNode.removeChild(script);
-    delete window[callback];
   }
 
-  window[callback] = function (data) { finish(data && data.site_pv); };
-  script.src = 'https://busuanzi.ibruce.info/busuanzi?jsonpCallback=' + callback;
-  script.async = true;
-  // Match the original provider script so the existing site count is retained.
-  script.referrerPolicy = 'no-referrer-when-downgrade';
-  script.onerror = function () { finish(); };
-  script.onload = function () {
-    if (value.getAttribute('data-view-state') === 'loading') finish();
-  };
-  // Send one request per page load: retrying could count the same view twice.
-  timer = window.setTimeout(function () { finish(); }, 12000);
-  document.head.appendChild(script);
+  async function request(method) {
+    var controller = window.AbortController ? new window.AbortController() : null;
+    var timer;
+    var options = { method: method, credentials: 'omit', cache: 'no-store' };
+    if (controller) options.signal = controller.signal;
+    if (method === 'POST') {
+      options.headers = { 'Content-Type': 'application/json' };
+      // Only count page views; do not set cookies or identify unique visitors.
+      options.body = JSON.stringify({ url: pageUrl, isNewUv: false });
+    }
+    var url = endpoint + (method === 'GET' ? '?url=' + encodeURIComponent(pageUrl) : '');
+    try {
+      var data = await Promise.race([
+        window.fetch(url, options).then(function (response) {
+          if (!response.ok) throw new Error('Page view request failed: ' + response.status);
+          return response.json();
+        }),
+        new Promise(function (_, reject) {
+          timer = window.setTimeout(function () {
+            if (controller) controller.abort();
+            reject(new Error('Page view request timed out'));
+          }, 10000);
+        })
+      ]);
+      if (data.status !== 'success' || !data.data ||
+          !Number.isSafeInteger(data.data.site_pv) || data.data.site_pv < 0) {
+        throw new Error('Invalid page view response');
+      }
+      return data.data.site_pv;
+    } finally {
+      window.clearTimeout(timer);
+    }
+  }
+
+  async function load() {
+    if (!window.fetch) return finish();
+    try {
+      finish(await request('POST'));
+    } catch (error) {
+      // A timed-out write may still have counted: recover with a read, never another write.
+      try { finish(await request('GET')); }
+      catch (readError) { finish(); }
+    }
+  }
+  load();
 }());
