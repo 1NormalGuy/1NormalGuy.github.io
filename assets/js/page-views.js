@@ -7,11 +7,13 @@
   var status = document.querySelector('[data-view-status]');
   var endpoint = 'https://events.vercount.one/api/v2/log';
   var pageUrl = window.location.origin + '/';
+  var baseline = Number(value.getAttribute('data-view-baseline') || 0);
+  if (!Number.isSafeInteger(baseline) || baseline < 0) baseline = 0;
 
   function finish(count) {
     if (value.getAttribute('data-view-state') !== 'loading') return;
-    if (Number.isSafeInteger(count) && count >= 0) {
-      value.textContent = count.toLocaleString('en-US');
+    if (Number.isSafeInteger(count) && count >= 0 && Number.isSafeInteger(count + baseline)) {
+      value.textContent = (count + baseline).toLocaleString('en-US');
       value.setAttribute('data-view-state', 'ready');
       if (status) status.hidden = true;
     } else {

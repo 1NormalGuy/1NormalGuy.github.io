@@ -4,8 +4,8 @@ const vm = require('node:vm');
 const fs = require('node:fs');
 const code = fs.readFileSync('assets/js/page-views.js', 'utf8');
 
-async function setup(responses, timeout = false) {
-  const attributes = {};
+async function setup(responses, timeout = false, baseline = 0) {
+  const attributes = { 'data-view-baseline': String(baseline) };
   const value = { textContent: '—', getAttribute: k => attributes[k], setAttribute: (k, v) => { attributes[k] = v; } };
   const labels = { en: {}, zh: {} };
   const status = { hidden: false, querySelector: s => labels[s.includes('"en"') ? 'en' : 'zh'] };
@@ -50,6 +50,12 @@ test('failed writes recover via read-only GET without double counting', async ()
   assert.equal(r.value.textContent, '1,235');
   assert.deepEqual(r.calls.map(c => c.options.method), ['POST', 'GET']);
   assert.match(r.calls[1].url, /\?url=https%3A%2F%2F1normalguy.github.io%2F$/);
+});
+
+test('preserves the verified historical views when changing providers', async () => {
+  const r = await setup([success(1)], false, 49);
+  assert.equal(r.value.textContent, '50');
+  assert.equal(r.calls.length, 1);
 });
 
 test('hung writes time out and recover via read-only GET', async () => {

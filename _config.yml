@@ -17,6 +17,9 @@ google_analytics_id      :  G-NMW1J07WPJ # get google_analytics_id from https://
 
 # Public homepage total page views (Vercount; enabled for production builds only).
 visitor_counter          : true
+# Last verified Busuanzi site_pv before switching to the independent Vercount total.
+# Vercount was confirmed to start at 1 without importing the previous count.
+page_view_baseline       : 49
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
